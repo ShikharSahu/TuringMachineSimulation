@@ -1,0 +1,14 @@
+Turing Machine Inputs O(1)*0-> this line is ignored
+InitialStates: A
+BlankSymbol: $
+Tape: 0111110
+Symbols: 0 1
+TapeSymbols: 0 1 X Y
+FinalStates: Accept
+AllStates: A B C Accept
+TransitionTable: NoOfEntries: 4
+from to -> this line is ignored //reject state need not be mentioned
+A,0 B,X,R
+B,1 B,Y,R
+B,0 C,X,R
+C,$ Accept,$,R

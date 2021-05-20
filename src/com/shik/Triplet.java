@@ -1,5 +1,5 @@
 package com.shik;
-
+// a class to act as a container for values for their easy transfer
 public class Triplet{
     private String nextState,changeTo,direction;
     public Triplet(String nextState, String changeTo, String direction) {

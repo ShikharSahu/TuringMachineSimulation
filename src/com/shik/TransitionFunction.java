@@ -3,6 +3,7 @@ package com.shik;
 import java.util.HashMap;
 
 public class TransitionFunction {
+    // transition function uses maps to store values about the transition table
     private final HashMap<Twin,Triplet> transitionTable;
 
     public TransitionFunction(){
@@ -20,7 +21,6 @@ public class TransitionFunction {
 
     public Triplet getNextTransitionInfo(String state, String symbol){
         Twin twin= new Twin(state,symbol);
-
         Triplet triplet= transitionTable.get(twin);
         return triplet;
     }
@@ -33,6 +33,7 @@ public class TransitionFunction {
             System.out.println(i);
         }
     }
+    // toString method for debugging
     @Override
     public String toString() {
         return "TransitionFunction{" +

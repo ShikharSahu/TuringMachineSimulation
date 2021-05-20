@@ -7,7 +7,7 @@ TapeSymbols: 0 1 X Y
 FinalStates: Accept
 AllStates: A B C Accept
 TransitionTable: NoOfEntries: 4
-from to -> this line is ignored //reject state need not be mentioned -> any state transition not mentioned goes automatically to the reject state
+from to -> this line is ignored //reject state need not be mentioned
 A,0 B,X,R
 B,1 B,Y,R
 B,0 C,X,R

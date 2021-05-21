@@ -1,0 +1,13 @@
+Turing Machine Inputs 1's complement-> this line is ignored
+InitialStates A
+BlankSymbol $
+Tape 011110
+Symbols 0 1
+TapeSymbols 0 1
+FinalStates B
+AllStates A B
+TransitionTable NoOfEntries 3
+from to
+A,0 A,1,R
+A,1 A,0,R
+A,$ B,$,R

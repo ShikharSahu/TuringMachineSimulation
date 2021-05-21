@@ -1,0 +1,21 @@
+Turing Machine accepts strings 0^n 1^n-> this line is ignored by program
+InitialStates A
+BlankSymbol $
+Tape 00001111
+Symbols 0 1
+TapeSymbols 0 1 X Y
+FinalStates Accept
+AllStates A B C D Accept
+TransitionTable NoOfEntries 11
+from -> to
+A,0 B,X,R
+A,Y D,Y,R
+A,$ Accept,$,L
+B,0 B,0,R
+B,Y B,Y,R
+B,1 C,Y,L
+C,0 C,0,L
+C,Y C,Y,L
+C,X A,X,R
+D,Y D,Y,R
+D,$ Accept,$,L
